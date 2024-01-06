@@ -11,7 +11,8 @@
     background-color: white;
     padding: 0 4rem;
     height: 50px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);}
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);} */
+}
 .start{
     background-color: white;
     display: flex;
@@ -31,14 +32,19 @@
 .link{
     text-decoration: none;
     display: inline;
-    cursor: pointer;
+    cursor: pointer;  
+    transition: transform 0.2s ease-in-out;
+
 }
 .link:hover{ transform: scale(1.1); 
 }
+.nav-button button:hover{ transform: scale(1.1); 
+background-color: black;}
 .nav-button{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+
 }
 .name{
     color: black;
@@ -55,19 +61,21 @@
     font-weight: 500;
     line-height: 25px;
     font-size: 18px;
-    text-transform: capitalize;
     margin: 0 1rem;
     cursor: pointer;
 }
 
-.nav-button button{
+.button{
     padding: 0.4rem;
     color: aliceblue;
     background-color: #53345e;
     font-weight: 500;
     line-height: 25px;
-    font-size: 18px;
+    font-size: 16px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    text-decoration: none;
+
 }

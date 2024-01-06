@@ -1,10 +1,12 @@
 .about{
-    margin: 1rem 10rem;
+    margin: 1rem 12rem;
+    margin-top: 3rem;
 }
 .about-wrapper{
     display: flex;
     align-items: center;
     text-align: left;
+    /* color:#befab1e7 */
 }
 .logo img{
     border: none;
@@ -15,6 +17,12 @@
     height: 23rem; 
     width: auto;
 }
+.heading div{
+    font-size:20px;
+    font-weight:500;
+    margin: 0.7rem 0;
+}
+
 .logo{
     margin: 2rem;
 }

@@ -1,0 +1,11 @@
+.footer{
+    background-color: #3d2745;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}

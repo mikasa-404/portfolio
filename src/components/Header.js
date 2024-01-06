@@ -25,7 +25,8 @@ const Header = ({projectRef, aboutRef, contactRef}) => {
         </ul>
         </div>
         <div className='nav-button'>
-        <button className='button'>Hire Me</button>
+          
+        <a className="button" href="https://drive.google.com/file/d/1nlSJB97DOVm34V6B16AsQpIpVCoffsC3/view?usp=sharing" target='_blank'>Download CV</a>
         </div>
     </div>
   )
