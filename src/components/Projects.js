@@ -32,7 +32,8 @@ const Projects = forwardRef((props, ref) => {
         My{" "}
         <span className="section-sub">
           <TypeAnimation
-            sequence={[" Projects", 1000]}
+            sequence={[" Projects", 1000,' ',
+            1000,]}
             speed={50}
             repeat={Infinity}
           />

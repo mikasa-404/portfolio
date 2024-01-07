@@ -27,6 +27,8 @@ const Contact = forwardRef((props, ref) => {
               sequence={[
                 " Me",
                 1000,
+                ' ',
+        1000,
               ]}
               speed={50}
               repeat={Infinity}

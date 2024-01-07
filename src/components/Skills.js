@@ -13,6 +13,7 @@ const Skills = () => {
               sequence={[
                 // Same substring at the start will only be typed once, initially
                 " Skills",
+                1000,' ',
                 1000,
               ]}
               speed={50}
