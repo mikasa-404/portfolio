@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/About.css";
-import logo from "../assets/301741725-256-k246551.jpg";
+import logo from "../assets/Screenshot from 2024-01-07 13-14-26.png";
 import { RoughNotation } from "react-rough-notation";
 import { forwardRef } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -35,26 +35,17 @@ const About = forwardRef((props, ref) => {
               >
                 Aspiring software developer
               </RoughNotation>{" "}
-              currently studying at IIT (ISM) Dhanbad.
+              on a learning adventure at IIT ISM Dhanbad.
             </div>
           </div>
+          <div className="para">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Sagittis
-            nisl rhoncusmattis rhoncus urna neque. Lacus vestibulum sed arcu non
-            odio euismod. Enim nec dui nunc mattis enim ut tellus elementum
-            sagittis. Lectus proin nibh nisl condimentum id venenatis a
-            condimentum.
-          </p>
-          <p>
-            Volutpat consequat mauris nunc congue nisi vitae suscipit tellus.
-            Maecenas accumsan lacus vel facilisis volutpat est velit egestas.
-            Lacus vestibulum sed arcu non odio euismod lacinia at quis. Nisi
-            quis eleifendquam adipiscing vitae proin. Elit duis tristique
-            sollicitudin nibh sit amet commodo nulla facilisi. Ac turpis egestas
-            sed tempus urna. Facilisi cras fermentum odio eu feugiat pretium. At
-            auctor urna nunc id cursus metus aliquam eleifend mi.{" "}
-          </p>
+          My web development journey started during my bachelor's, discovering a passion for problem-solving. Over the past two years, I've honed my skills, excelling in C++ for Data Structures and Algorithms. Proficient in HTML, CSS, JavaScript, React, and Node.js, I craft user-centric websites adaptable to both desktop and mobile.
+</p>
+          <p>With a Master's in Mathematics and Computing (graduation: 2024), I bridge the gap between intricate algorithms and elegant web solutions. Eager to apply these skills to innovative projects, I'm committed to making a real impact.</p>
+          </div>
+      
+          
           <div className="socials">
             <a className="social-link" href="https://github.com/mikasa-404" target="_blank">
               <div className="icon">

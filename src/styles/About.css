@@ -1,6 +1,6 @@
 .about{
-    margin: 1rem 12rem;
-    margin-top: 3rem;
+    margin: 1rem 14rem;
+    margin-top: 4rem;
 }
 .about-wrapper{
     display: flex;
@@ -8,13 +8,20 @@
     text-align: left;
     /* color:#befab1e7 */
 }
+.content{
+    margin: 2rem;
+}
+.para{
+    margin: 1.2rem 0;
+}
+.para p{
+    margin: 0.5rem 0;
+}
 .logo img{
     border: none;
     border-radius: 10px;
     display: block;
-    margin: auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    height: 23rem; 
+    height: 20rem; 
     width: auto;
 }
 .heading div{
@@ -45,3 +52,7 @@
     text-align: left;
     margin: 2px;
   }
+  @media screen and (max-width: 768px) {
+
+  }
+
